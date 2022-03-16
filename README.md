@@ -15,7 +15,7 @@ The following steps are to reproduce the issue:
              bootstrap: [AppComponent],
              imports: [NativeScriptModule, AppRoutingModule,TNSCheckBoxModule],
     ```
-4. Run the command as a sample below
+4. Run the command as a sample below to verify the build in Android emulator
     ```
      ns run android --release --key-store-path ~/Documents/abc.jks --key-store-password "123" --key-store-alias ksa --key-store-alias-password "ksap" --env.uglify --env.environment=beta --env.aot
 
